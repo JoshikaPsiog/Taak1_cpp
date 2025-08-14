@@ -33,7 +33,7 @@ void readFile(const string &filename) {
 
     string line;
     while (getline(file, line)) {
-        // cout << line << endl;
+        
     }
 }
 
