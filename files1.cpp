@@ -2,8 +2,7 @@
 #include <fstream>
 #include <string>
 using namespace std;
-
-// Function to copy file contents
+//this is write fuction
 void copyFileContents(const string &srcFile, const string &destFile) {
     ifstream source(srcFile);
     ofstream destination(destFile);
@@ -24,7 +23,7 @@ void copyFileContents(const string &srcFile, const string &destFile) {
     cout << destFile << " is copied" << endl;
 }
 
-// Function to read file contents
+// this is the read function
 void readFile(const string &filename) {
     ifstream file(filename);
     if (!file.is_open()) {
